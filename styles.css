@@ -28,6 +28,10 @@ header{
     z-index: 90;
 }
 
+.container-all-sections{
+    width: 100vh;
+}
+
 .container{
     width: 100vh;
 }
@@ -167,6 +171,7 @@ header{
     margin-bottom: 10%;
     margin-left: 20%;
     margin-right: 20%;
+    align-items: first baseline;
 }
 
 .oscurecer-imagen{
