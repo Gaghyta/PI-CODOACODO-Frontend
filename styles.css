@@ -165,6 +165,8 @@ header{
 
     margin-top: 10%;
     margin-bottom: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .oscurecer-imagen{
@@ -339,11 +341,11 @@ header{
     justify-content: center;
     
   }
-  .container-fluid .footer-nav{
 
+  .footer.nav{
     background-color: linear-gradient(rgba(110, 54, 54, 0.5));
-
   }
+
 
  
 
