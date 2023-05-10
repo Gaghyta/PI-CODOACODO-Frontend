@@ -64,10 +64,20 @@ header {
 }
 
 .btn{
-    background-color: #64f379 !important;
-    border: #64f379 !important;
+    background-color: #61cebb !important;
+    border: #58b4a4 !important;
 
 }
+
+.btn-primary:active{
+    background-color: #7acad1 !important;
+    border: #64f379 !important;
+}
+
+/*.btn-primary:focus{
+    background-color: rgb(94, 79, 126)!important;
+    border-color:rgb(94, 79, 126)!important;
+}*/
 
 .bs-octubre-rectangulo{
     background-color: #28323b;
