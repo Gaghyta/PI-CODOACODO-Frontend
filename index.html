@@ -6,7 +6,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="./styles.css" rel="stylesheet">
+    
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -14,8 +14,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/css/bootstrap.min.css"
         integrity="sha512-nqrqz6xPug/bD0w6eBYU6p1c6HohZ0Sh1/KkOzL9bS5e5Tp5/V5pzY+Yd5o4Q4/Z4Z4wyikV7E+Bpx87XJQrWQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="./styles.css" rel="stylesheet">
 
 </head>
 
@@ -164,30 +166,33 @@
             
             <div class="card d-flex flex-column cards" style="width:18rem">
                 <img class="rounded-top-1 img-card" src="img/ada.jpeg" alt="foto de ada" />
-            
-                        <div class="px-3">
-                            <div class="my-3">
-                                <span class="bg-secondary fw-semibold text-black p-1 rounded-2 ">Negocios</span>
-                                <span class="bg-danger fw-semibold text-light p-1 rounded-2">Startup</span>
-                            </div>
-                            <span class="fw-bold fs-5 mb-3">Ada Lovelace</span>
-                            <div>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil blanditiis assumenda reiciendis laborum ratione, placeat, et adipisci rerum enim harum in, quasi ducimus minus error necessitatibus molestias facere nisi eum.
-                            </div>
-                        </div>
+                <div class="px-3">
+                    <div class="my-3">
+                        <span class="bg-secondary fw-semibold text-black p-1 rounded-2 ">Negocios</span>
+                        <span class="bg-danger fw-semibold text-light p-1 rounded-2">Startup</span>
+                    </div>
+                    <span class="fw-bold fs-5 mb-3">Ada Lovelace</span>
+                    <div>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil blanditiis assumenda reiciendis laborum ratione, placeat, et adipisci rerum enim harum in, quasi ducimus minus error necessitatibus molestias facere nisi eum.
+                    </div>
+                </div>        
             </div>
         </div>
     </div>
 
     <div class="d-flex flex-wrap mb-5">
         <div class="row-cols-1">
-        <img src="img/honolulu.jpg" class= "imagen-bs-octubre" alt="imagen de Huawaii">
+            <img src="img/honolulu.jpg" class= "imagen-bs-octubre" alt="imagen de Huawaii">
         </div>
         <div class="row-cols-2 bs-octubre-rectangulo">
             <div class="text bs-octubre-text">
                 <h2>Bs As -Octubre </h2>
                 <p>Buenos Aires es la provincia más granddel estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad condado consolidada que cubre toda la ciudad (aproximadamente 60km2 de superficie). </p>
-            </div>
+                <div class="align-items-center"></div>
+                    <button type="button" class="btn btn-outline-light" id="conocermas">Conocé más</button>
+                </div>  
+            </div> 
+            
         </div>
     </div>
 
@@ -218,9 +223,8 @@
                 <p class="recordatorio-text-area">Recuerda incluir un título para tu charla</p>
             </div>  
             <div class="d-grid gap-2">
-                <button type="button"class="btn btn-primary active " aria-pressed="true" >Enviar</button>
-            </div>
-             
+                <button type="button"class="btn btn-info active" id="botoncito" aria-pressed="true">ENVIAR</button>
+            </div>     
         </div>   
     </div>
     

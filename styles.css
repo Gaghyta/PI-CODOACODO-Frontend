@@ -63,22 +63,28 @@ header {
    /*linear-gradient(rgba(0, 0, 0, 0.5));*/
 }
 
-.btn{
+#botoncito.btn-info{
     background-color: #05a4a9 !important;
     border: #58b4a4 !important;
-    margin-bottom: 3em;
+    margin-bottom: 3em !important;
 }
 
-.btn-primary:active{
-    background-color: #59a4ab !important;
-    border: #64f379 !important;
+#botoncito.btn-info:active{
+    background-color: #073437 !important;
+    border: #074660 !important;
+    color: aliceblue;
 }
 
-/*.btn-primary:focus{
+/* 
+.btn-info:focus{
     background-color: rgb(94, 79, 126)!important;
     border-color:rgb(94, 79, 126)!important;
-}*/
+} */
 
+.conocermas{
+    margin-left: 3em !important;
+    margin-bottom: 3em !important;
+}
 
 .recordatorio-text-area{
     font-weight: 300;
@@ -118,6 +124,7 @@ u {
 }
 
 footer{
+    margin-top: 3em;
     min-height: 5em;
     /*background-color: #404449;*/
     background-image: linear-gradient(rgb(33, 72, 89),rgb(11, 69, 88));
