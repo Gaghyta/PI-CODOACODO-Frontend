@@ -64,13 +64,13 @@ header {
 }
 
 .btn{
-    background-color: #61cebb !important;
+    background-color: #05a4a9 !important;
     border: #58b4a4 !important;
-
+    margin-bottom: 3em;
 }
 
 .btn-primary:active{
-    background-color: #7acad1 !important;
+    background-color: #59a4ab !important;
     border: #64f379 !important;
 }
 
@@ -78,6 +78,14 @@ header {
     background-color: rgb(94, 79, 126)!important;
     border-color:rgb(94, 79, 126)!important;
 }*/
+
+
+.recordatorio-text-area{
+    font-weight: 300;
+    font: 0.95em sans-serif;
+    color: #8a8686;
+    font-stretch: semi-expanded;
+}
 
 .bs-octubre-rectangulo{
     background-color: #28323b;
@@ -110,8 +118,9 @@ u {
 }
 
 footer{
-    min-height: 4em;
-    background-color: #404449;
+    min-height: 5em;
+    /*background-color: #404449;*/
+    background-image: linear-gradient(rgb(33, 72, 89),rgb(11, 69, 88));
 }
 
 /*
