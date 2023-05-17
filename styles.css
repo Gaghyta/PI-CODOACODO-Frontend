@@ -74,7 +74,6 @@ header {
     border: #074660 !important;
     color: aliceblue;
 }
-
 /* 
 .btn-info:focus{
     background-color: rgb(94, 79, 126)!important;
@@ -83,7 +82,7 @@ header {
 
 .conocermas{
     margin-left: 3em !important;
-    margin-bottom: 3em !important;
+    padding: 0;
 }
 
 .recordatorio-text-area{
@@ -93,9 +92,13 @@ header {
     font-stretch: semi-expanded;
 }
 
+
 .bs-octubre-rectangulo{
     background-color: #28323b;
     z-index: 80;
+    margin-bottom: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .bs-octubre-text{
@@ -107,6 +110,28 @@ header {
     color: #fff;
 }
 
+
+
+#rectangulo-botonera{
+    margin-top: 0%;
+    margin-bottom:5%;
+    padding-top:5%;
+    padding-bottom:5%;
+    background-color: #044e68;
+    z-index: 80;
+    box-sizing: border-box;
+}
+
+#quiero-ser-orador {
+    margin-right: 1em;
+}
+
+#comprar-tickets {
+    margin-right: 1em;
+    background-color: #85f395;
+    border-color: #3ff45a;
+    color: rgb(16, 22, 26)
+}
 
 u {
 
