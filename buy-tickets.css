@@ -3,6 +3,18 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+/*input[type="number"] {
+    margin-right: 0.5rem;
+}*/
+
+label {
+    margin-bottom: 0.5rem;
+}
 /*
 #venta{
 
