@@ -97,6 +97,9 @@
 
 
         </div>
+
+
+
         <div class="d-flex justify-content-center col px-5">
             <div class="container-datos">   
                 <div>
@@ -106,7 +109,55 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <form>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                    </div>
+                    
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="apellidos" placeholder="Ingrese sus apellidos">
+                    </div>
+                    
+                    <div class="form-group">
+                      <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico">
+                    </div>
+                    
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <label for="cantidad">Cantidad</label>
+                          <div class="input-group">
+                            <input type="number" class="form-control" id="cantidad" placeholder="Ingrese la cantidad">
+                            <div class="input-group-append">
+                              <button class="btn btn-outline-secondary" type="button">▲</button>
+                              <button class="btn btn-outline-secondary" type="button">▼</button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="categoria">Categoría</label>
+                          <select class="form-control" id="categoria">
+                            <option value="estudiante">Estudiante</option>
+                            <option value="trainee">Trainee</option>
+                            <option value="junior">Junior</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="form-group bg-info text-white p-3">
+                      <label class="mb-0">Total a Pagar:</label>
+                      <input type="text" class="form-control" id="total" readonly>
+                    </div>
+                    
+                    <div class="form-group">
+                      <div class="d-grid gap-2">
+                        <button class="btn btn-success" type="button">Resumen</button>
+                        <button class="btn btn-success" type="button">Borrar</button>
+                      </div>
+                    </div>
+                  </form>
+                <!--<div class="row">
                     <div class="col">
                     <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
                     </div>
@@ -138,12 +189,10 @@
                       <option value="opcion2">Trainee</option>
                       <option value="opcion3">Junior</option>
                     </select>
-                  </div>    
-            </div>   
+                </div>  -->     
+            </div>
         </div>
         
-
-
         <footer class="">
             <nav class="navbar navbar-expand-md">
                 <div class="container-fluid justify-content-center">
