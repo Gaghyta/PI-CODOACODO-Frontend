@@ -68,8 +68,7 @@
                     <p>Tiene un descuento</p>
                     <p>80%</p>
                     <p>* presentar documentación</p> 
-                 </div>
-            
+                 </div> 
             </div>
             <div class="card border-success  mb-3">
                 <div class="card-header text-center fw-bold fs-3 text-success ">
@@ -81,7 +80,6 @@
                     <p>* presentar documentación</p> 
                 </div>       
             </div>
-
             <div class="card border-danger  mb-3">
                 <div class="card-header text-center fw-bold fs-3 text-danger">
                     Junior
@@ -91,14 +89,8 @@
                     <p>15%</p>
                     <p>* presentar documentación</p> 
                 </div> 
-
-
             </div>
-
-
         </div>
-
-
 
         <div class="d-flex justify-content-center col px-5">
             <div class="container-datos">   
@@ -110,86 +102,67 @@
                 </div>
 
                 <form>
-                    <div class="form-group">
-                      <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" id="apellido" placeholder="Ingrese su/s apellido/s">
+                        </div>
                     </div>
-                    
                     <div class="form-group">
-                      <input type="text" class="form-control" id="apellidos" placeholder="Ingrese sus apellidos">
+                        <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico">
                     </div>
-                    
-                    <div class="form-group">
-                      <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico">
-                    </div>
-                    
-                    <div class="form-group">
-                      <div class="row">
-                        <div class="col-md-6">
-                          <label for="cantidad">Cantidad</label>
-                          <div class="input-group">
-                            <input type="number" class="form-control" id="cantidad" placeholder="Ingrese la cantidad">
-                            <div class="input-group-append">
-                              <button class="btn btn-outline-secondary" type="button">▲</button>
-                              <button class="btn btn-outline-secondary" type="button">▼</button>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <div class="row">
+                                <div class="col">
+                                    <label for="cantidad">Cantidad</label>
+                                    <div class="input-group">
+                                        <input type="number" class="form-control" id="cantidad" placeholder="Ingrese la cantidad">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary" type="button" id="incrementar-cantidad">
+                                                <i class="bi bi-arrow-up">▲</i>
+                                            </button>
+                                            <button class="btn btn-outline-secondary" type="button" id="decrementar-cantidad">
+                                                <i class="bi bi-arrow-down">▼</i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <label for="categoria">Categoría</label>
+                                    <select class="form-control" id="categoria">
+                                        <option value="estudiante">Estudiante</option>
+                                        <option value="trainee">Trainee</option>
+                                        <option value="junior">Junior</option>
+                                    </select>
+                                </div>
                             </div>
-                          </div>
                         </div>
-                        <div class="col-md-6">
-                          <label for="categoria">Categoría</label>
-                          <select class="form-control" id="categoria">
-                            <option value="estudiante">Estudiante</option>
-                            <option value="trainee">Trainee</option>
-                            <option value="junior">Junior</option>
-                          </select>
-                        </div>
-                      </div>
                     </div>
-                    
-                    <div class="form-group bg-info text-white p-3">
-                      <label class="mb-0">Total a Pagar:</label>
-                      <input type="text" class="form-control" id="total" readonly>
-                    </div>
-                    
+                
                     <div class="form-group">
-                      <div class="d-grid gap-2">
-                        <button class="btn btn-success" type="button">Resumen</button>
-                        <button class="btn btn-success" type="button">Borrar</button>
-                      </div>
+                        <div class="input-group">
+                            <input type="text" class="form-control bg-info text-white" id="total" placeholder="Total a Pagar:$" readonly>
+                        </div>
                     </div>
-                  </form>
-                <!--<div class="row">
-                    <div class="col">
-                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                
+                    <div class="form-group">
+                        <div class="row justify-content-center">
+                            <div class="col-6 col-md-4">
+                                <button class="btn btn-success btn-block" type="button">Borrar</button>
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <button class="btn btn-success btn-block" type="button">Resumen</button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col">
-                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                    <input type="text" class="form-control" placeholder="Correo" aria-label="Correo">
-                    </div>
-
-                </div>
-                <div class="col">
-                    <div class="row">
-                    <input type="text" class="form-control" placeholder="Cantidad" aria-label="Cantidad">
-                    <input type="text" class="form-control" placeholder="Categoría" aria-label="Categoría">
-                    </div>
-                </div>
-                </div>  
-                <div class="container-fluid flex-column row-cols-2 gap-2">
-                    <button type="button"class="btn btn-info active" id="botoncito1" aria-pressed="true">Borrar</button>
-                    <button type="button"class="btn btn-info active" id="botoncito2" aria-pressed="true">Resumen</button>
-                </div> 
-                <div class="dropdown">
-                    <select class="form-select">
-                      <option selected>Selecciona una opción</option>
-                      <option value="opcion1">Estudiante</option>
-                      <option value="opcion2">Trainee</option>
-                      <option value="opcion3">Junior</option>
-                    </select>
-                </div>  -->     
+                </form>
+                    
+                
+                
+                 
             </div>
         </div>
         
